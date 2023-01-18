@@ -7,28 +7,65 @@
     
     gap: 10px;
 }
+.anchor{
+position: absolute;
+left: 70%;
+top: 5%;
+
+
+}
+#home{
+    padding-right: 3em;
+    color: black;
+    text-decoration:dashed
+}
+#about{
+    padding-right: 3em;
+    color: black;
+    text-decoration: dashed;
+}
+#contact{
+    padding-right: 2em;
+    color: black;
+    text-decoration: dashed;
+}
+#bro{
+    color: black;
+    text-decoration: dashed;
+
+}
+#g3{
+    padding-left: 2em;
+}
+
 .main{
     font-size: 2em;
     font-weight: 700;
     text-align: center;
-    
-
 }
         /* done */
 #para{
     font-size: .5em;
      color: rgb(123, 122, 122);                               
     text-align: center;
-     
-
-
+    
 }
-.image{
-       padding-top: 35px;
-       padding-right: 50px;
-       padding-bottom: 30px;
-       padding-left: 50px;
-     
+.button{
+    
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    background-position: 2em;
+
+    
+
+} 
+.image{ padding-top: 35px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+  
+      
 }
 .footer{
     position: relative;
@@ -46,20 +83,128 @@
 
 }
  .break{
-    position: relative;
-    left: 30%;
-    top: 50%;
+    position: absolute;
+    left: 45%;
+    text-align: start;
+    
     
 
 } 
-.h2{
-    font-size: large;
-    font-weight: 700;
+.style{
+    padding: 60px 100px;
+}
+.feature{
+    
 }
 
-.anotherpara{font-size: .5em;
+.h2{
+    text-decoration: none;
+    
+    
+}
+#arektapara{font-size: .5em;
+    color: rgb(123, 122, 122);                               
+   text-align: left;
+    
+}
+#anotherpara{font-size: .5em;
     color: rgb(123, 122, 122);                               
    text-align: center;
+}
+
+.mobile,.modern,.easy{
+    border: 1px solid whitesmoke;
+    border-width: 10px;
+    border-radius: 2em;
+    
+}
+
+
+ .another image{ 
+    /* padding-top: 35px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;  */
+    display:inline;
+    padding-left: 400px;
+
+
+    
+    
     
 
+}
+#h3{
+    font: size 1.5em;;
+    font-weight: 700;
+    margin: 50px;
+    padding-bottom: 10px;
+
+}
+#pera{
+    margin: 50px;
+    font-size: 1em;
+     color: rgb(123, 122, 122);                               
+    text-align: left;
+     
+}
+ #peramoy{
+    padding-bottom: 6px}
+    
+
+.myicons{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    column-gap: 200px
+}
+.icon1{
+    text-align: center;
+    text-decoration:none;
+    border: 1px solid chocolate;
+    font-size: 1.5em;   
+    
+}
+.icon2{
+    text-align: center;
+    text-decoration:none;
+    border: 1px solid chocolate;
+    font-size: 1.5em; 
+}
+.icon3{
+    text-align: center;
+    text-decoration:none;
+    border: 1px solid chocolate; 
+    font-size: 1.5em;
+}
+.icon4{
+    text-align: center;
+    text-decoration:none;
+    border: 1px solid chocolate; 
+    font-size: 1.5em;
+}
+.sponsor{
+    text-align: center;
+}
+.spon{
+    display: flex;
+    justify-content: center;
+    column-gap: 200px;
+    padding-top: 20px;
+}
+#spotify{
+    text-decoration: dashed;
+    color: lightgray;
+    
+}
+
+#right{font-size: 1em;
+    color: rgb(123, 122, 122); 
+    text-align:center;
+    background-color: bisque;
+    
+}
+.right{
+    padding: 40px 200px;
+    margin: 100px 40px;
 }
